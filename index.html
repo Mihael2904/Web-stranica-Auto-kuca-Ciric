@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto kuća Ćirić | Ovlašteni servis</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .site-logo {
+      width: 76px;
+      height: 76px;
+      object-fit: contain;
+      display: block;
+      border-radius: 12px;
+      flex: 0 0 76px;
+      transform: scale(1.25);
+      transform-origin: center;
+    }
+
+    .topbar {
+      min-height: 96px;
+    }
+
+    .logo-wrap {
+      gap: 1.2rem;
+    }
+  </style>
+  <style>
+    .brand-panel {
+      text-align: center;
+    }
+
+    .brand-panel .brand-grid {
+      justify-items: center;
+      align-items: center;
+    }
+
+    .brand-badge {
+      width: 100%;
+      min-height: 140px;
+      display: grid;
+      place-items: center;
+      padding: 1.2rem;
+    }
+
+    .brand-logo {
+      width: 100%;
+      max-width: 150px;
+      height: 85px;
+      object-fit: contain;
+      margin: 0 auto;
+      mix-blend-mode: multiply;
+    }
+
+    .brand-logo--wide {
+      max-width: 170px;
+    }
+
+    .hero .hero-grid {
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+      column-gap: clamp(2rem, 6vw, 4rem);
+    }
+
+    .hero-copy {
+      justify-self: center;
+      width: 100%;
+    }
+
+    @media (max-width: 900px) {
+      .hero .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero-actions,
+      .stats {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#glavni-sadrzaj">Preskoči na sadržaj</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <div class="logo-wrap">
+        <img class="site-logo" src="pictures/Logo.png" alt="Logo Auto kuća Ćirić" width="76" height="76">
+        <div class="brand">
+          <strong>Auto kuća Ćirić</strong>
+          <span>Tradicija od 1969.godine</span>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Otvori izbornik">Izbornik</button>
+      <nav class="main-nav" aria-label="Glavna navigacija">
+        <ul>
+          <li><a class="active" href="index.html">Početna</a></li>
+          <li><a href="usluge.html">Usluge</a></li>
+          <li><a href="onama.html">O nama</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="glavni-sadrzaj">
+    <section class="hero">
+      <div class="container hero-grid">
+        <article class="hero-copy">
+          <span class="eyebrow">Volkswagen · Škoda · Seat · Cupra</span>
+          <h1>Ovlašteni servis koji spaja stručnost i profesionalnu podršku.</h1>
+          <p class="lead">Auto kuća Ćirić pruža redovne servise, mehaničarske i limarske zahvate, računalnu dijagnostiku i pripremu vozila za svaku sezonu. </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="kontakt.html">Zatraži termin</a>
+            <a class="btn btn-secondary" href="usluge.html#cjenik">Pogledaj cjenik</a>
+          </div>
+          <div class="stats">
+            <section class="card">
+              <strong>4</strong>
+              <span>ovlaštene marke</span>
+            </section>
+            <section class="card">
+              <strong>12+</strong>
+              <span>ključnih servisnih usluga</span>
+            </section>
+            <section class="card">
+              <strong>1</strong>
+              <span>tim za brzu podršku</span>
+            </section>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>Zašto odabrati Auto kuću Ćirić</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Ovlašten pristup</h3>
+            <p>Servis je usmjeren na vozila Volkswagen grupacije te koristi postupke i radne tokove prilagođene pojedinoj marki.</p>
+            <ul>
+              <li>Redovni i veliki servis</li>
+              <li>Originalni i zamjenski dijelovi</li>
+              <li>Servisna evidencija zahvata</li>
+            </ul>
+          </article>
+          <article class="card highlight">
+            <h3>Računalna dijagnostika</h3>
+            <p>Brzo očitavanje grešaka, provjera elektronike i planiranje popravaka uz jasan pregled potrebnih radova.</p>
+            <ul>
+              <li>DSG, klima i motor</li>
+              <li>Očitavanje svih grešaka</li>
+              <li>Priprema za tehnički pregled</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Jednostavan odabir termina</h3>
+            <p>Rezervirati svoj termin možete na broj telefona, mail ili u servisu od 08:00 do 16:00</p>
+            <ul>
+              <li>Nema dugog čekanja</li>
+              <li>Za hitne situacije primamo unutar 2 dana</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col">
+        <article class="info-box brand-panel">
+          <h2>Marke koje servisiramo</h2>
+          <div class="brand-grid">
+            <div class="brand-badge">
+              <img class="brand-logo" src="pictures/Volkswagen.jpg" alt="Volkswagen logo" loading="lazy">
+            </div>
+            <div class="brand-badge">
+              <img class="brand-logo brand-logo--wide" src="pictures/Skoda.png" alt="Škoda logo" loading="lazy">
+            </div>
+            <div class="brand-badge">
+              <img class="brand-logo brand-logo--wide" src="pictures/Seat.jpg" alt="Seat logo" loading="lazy">
+            </div>
+            <div class="brand-badge">
+              <img class="brand-logo" src="pictures/Cupra.jpg" alt="Cupra logo" loading="lazy">
+            </div>
+          </div>
+        </article>
+        <aside class="info-box">
+          <h2>Servisne usluge i paketi</h2>
+          <p>Nudimo sve potrebne usluge za vaše vozilo, servisi, mehanički kvarovi, limarija, lakiranje...</p>
+          <a class="small-anchor" href="usluge.html#servisni-paketi">Idi na servisne pakete</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid footer-grid--clean">
+      <section>
+        <h2>Auto kuća Ćirić</h2>
+        <p>Ovlašteni servis za Volkswagen, Škodu, Seat i Cupra vozila.</p>
+      </section>
+      <nav aria-label="Podnožje navigacija">
+        <h3>Stranice</h3>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="usluge.html">Usluge</a></li>
+          <li><a href="onama.html">O nama</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container copyright">© 2026 Auto kuća Ćirić</div>
+  </footer>
+</body>
+</html>
